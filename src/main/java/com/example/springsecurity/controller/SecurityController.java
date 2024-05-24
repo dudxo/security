@@ -10,4 +10,9 @@ public class SecurityController {
     public String successPage(){
         return "success";
     }
+
+    @GetMapping("/fail")
+    public String failPage(){
+        return "fail";
+    }
 }
